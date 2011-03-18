@@ -372,11 +372,31 @@ legend
 {
 	background-color: #ffffff;
 	font-weight: bold; 
-	margin: 10px auto 10px auto; 
+	margin: 5px auto; 
 	clear: both;
-	padding: 5px 10px 5px 10px; 
+	padding: 5px 10px; 
 	width: 500px;
 	position: relative;
+}
+.flash div
+{
+ 	border: 1px solid;
+	padding: 5px 10px;
+}
+.flash .error
+{
+	color: #f00;
+	border-color: red;
+}
+.flash .message
+{
+	color: #ff0;
+	border-color: yellow;
+}
+.flash .success
+{
+	color: #00f;
+	border-color: green;
 }
 
 /* Miscellaneous */ 
