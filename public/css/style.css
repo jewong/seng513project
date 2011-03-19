@@ -385,17 +385,17 @@ legend
 }
 .flash .error
 {
-	color: #f00;
+	color: red;
 	border-color: red;
 }
 .flash .message
 {
-	color: #ff0;
+	color: yellow;
 	border-color: yellow;
 }
 .flash .success
 {
-	color: #00f;
+	color: green;
 	border-color: green;
 }
 
